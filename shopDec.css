@@ -1,0 +1,146 @@
+body,footer {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.8;
+}
+body {
+    padding: 1px;
+    margin: 0;
+}
+.logoContainer{
+    margin: 0 0 0 10px;
+}
+#logo {
+ height: 50px;
+ display: inline-block;
+ width: auto;
+}
+header {
+    padding: 1px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid seashell;
+
+}
+nav {
+    margin: 0;
+    display: inline-flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 69px;
+    width: 30%;
+}
+.listOfNav {
+    display: inline-flex;
+    justify-content:space-around;
+    align-items:center;
+
+    width: 100%;
+}
+.linkBox {
+    display: inline-block; 
+    text-decoration: underline;
+}
+
+#missionBackground {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url("images/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
+}
+#missionQuote {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#missionQuote h2 {
+
+    width: 100%;
+    margin-top:10px;
+    text-align: center;
+}
+#missionQuote h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#monthly {
+  
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+#monthlyQuoteContainer {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.monthlyFigure {
+    
+    margin: 10px;
+    text-align: center;
+}
+
+.monthlyFigure img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px
+}
+
+.monthlyFigure figcaption {
+    font-weight: bold;
+}
+
+#LocationsContainer {
+    height: 500px;
+    margin: 0 auto;
+    width: 83%;
+    background-position: center;
+    background-image: url("images/img-locations-background.jpg");
+    background-size:cover;
+    background-size:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    justify-content: center;
+
+}
+#LocationsContainer .contHead {
+   height: 15px;
+   color: seashell;
+   width: 100%;
+   text-align: center;
+   font-size: 1.7rem;
+   font-weight: bold;
+   margin-top: 55px;
+   margin-bottom: 15px;
+}
+
+.locationBox {
+    text-align: center;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+#belowLocation {
+   text-align: center;
+   height: 200px;
+}
+
+footer p {
+    margin-left: 20px;
+}
